@@ -30,14 +30,7 @@
     body{
         background-color: var(--primary-color);
     }
-/*.logo{
-    color:var(--secondary-color);
-    font-size: 50px;
-    font-family: monospace;
-    margin: 66px 0 0  74px;
-    float: left;
-    transform: translate(-60px , -60px);
-}*/
+
 .main{
 	width: 100%;
 	background-position: center;
@@ -90,35 +83,7 @@ ul li a:hover{
 	color: #ff7200;
 }
 
-/*.menu{
-    width: 100%;
-    float: left;
-    height: 70px;
-    margin: 30px auto 30px;
 
-}
-ul{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
- ul li{
-margin-top: 0;
-margin-left: 70px;
-font-size: 18px;
-list-style: none;
-}
-
-ul li a{
-color: var(--secondary-color);
-font-family: Arial, Helvetica, sans-serif;
-transition: 0.4s ease-in-out;
-font-weight: 600;
-}
-ul li a:hover{
-    color: #ff7200;
-}
-*/
 .support{
     font-family: Arial, Helvetica, sans-serif;
     align-items: center ;
@@ -130,27 +95,7 @@ ul li a:hover{
     font-size: 55px;
     text-transform: uppercase;
 }
-.support::before{
-    content: '';
-    position: absolute;
-    width: 100px;
-    height: 3px;
-    background-color: #ff7200;
-    bottom: 500px;
-    left: 50%;
-    transform: translatex(-50%);
-    animation: animate 4s linear infinite;
-}
-@keyframes animate{
-    0%{
-        width: 100px;
-    }
-    50%{
-        width: 200px;
-    }
-    100%{
-        width: 100px;
-    }
+
 }
 .title1{
     font-family: Arial, Helvetica, sans-serif;
