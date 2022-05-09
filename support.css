@@ -30,65 +30,58 @@
     body{
         background-color: var(--primary-color);
     }
-/*.logo{
-    color:var(--secondary-color);
-    font-size: 50px;
-    font-family: monospace;
-    margin: 66px 0 0  74px;
-    float: left;
-    transform: translate(-60px , -60px);
-}*/
-.main{
-	width: 100%;
-	background-position: center;
-	background-size: cover;
-	height: 200px;
-    opacity: 100%;
-}
-.logo{
-	float: left;
-	color: white;
-	font-size: 100px;
-	font-family:monospace;
-	display: flex;  
-	position: absolute;
-    margin-bottom: 30px;
-    top: 150px;
-	left: 50%;
-	transform: translate(-50%,-50%);
-}
-.menu{
-	float: left;
-	height: 170px;
-}
 
-ul{
-	float: left;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
+  .main{
+        display: flex;
+        width: 100%;
+        background-color: grey;
+        background-position: center;
+        background-size: cover;
+        height: 200px;
+    }
+    .logo{
+        color: white;
+        font-size: 100px;
+        font-family:monospace;
+        display: flex;  
+        position: absolute;
+        top: 50px;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    .menu{
+        float: left;
+        height: 70px;
+    }
+    
+    ul{
+        float: left;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    ul li{
+        padding-left: 50px;
+        display: flex;
+        list-style: none;
+        margin-left: 50px;
+        margin-top: 27px;
+        font-size: 14px;
+    }
+    
+    ul li a{
+        text-decoration: none;
+        color: #fff;
+        font-family: Arial;
+        font-weight: bold;
+        transition: 0.4s ease-in-out;
+    }
+    
+    ul li a:hover{
+        color: #ff7200;
+    }
 
-ul li{
-	padding-left: 80px;
-	display: flex;
-	list-style: none;
-    margin-left: 50px;
-	margin-top: 27px;
-	font-size: 20px;
-}
-
-ul li a{
-	text-decoration: none;
-	color: white;
-	font-family: Arial;
-	font-weight: bold;
-	transition: 0.4s ease-in-out;
-}
-
-ul li a:hover{
-	color: #ff7200;
-}
 
 
 .support{
@@ -203,12 +196,12 @@ ol .security{
     position: absolute;
     transform: translate(-50%);
     left: 70%;
-   bottom: -300%;
+   bottom: -400%;
 }
 .container{
     display: none;
     background: #7a4214;
-    width: 510px;
+    width: 710px;
     padding: 40px;
     border-radius: 10PX;
     box-shadow: 0 0 8px rgba(0,0,0,0.4);
