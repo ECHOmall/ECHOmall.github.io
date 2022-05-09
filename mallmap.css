@@ -31,14 +31,7 @@
     body{
         background-color: var(--primary-color);
     }
-/*.logo{
-    color:var(--secondary-color);
-    font-size: 50px;
-    font-family: monospace;
-    margin: 66px 0 0  74px;
-    float: left;
-    transform: translate(-60px , -60px);
-}*/
+
 .main{
 	width: 100%;
 	background-position: center;
@@ -90,74 +83,7 @@ ul li a{
 ul li a:hover{
 	color: #ff7200;
 }
-/*#icon{width: 30px;
-cursor: pointer;
-margin: 20px;
-}
-:root{  --primary-color:#fff;
-    --secondary-color:#212121;
-  
- 
-}
-.dark-theme{
-    --primary-color:#212121;
-    --secondary-color:#fff;
-}
-body{
-    background-color: var(--primary-color);
-}
 
-.head{
-
-    justify-content: space-between;
-    align-items: center;
-    display: flex;
-    height: 15vh;
-   background-color: var(--primary-color);
-
-    border-bottom: 0.1rem solid rgb(0, 0, 0,0.1);
-    box-shadow: 0.5rem 0.1rem rgba(30, 29, 29, 0.045);
-
-}
-.logo{
-   color: var(--secondary-color);
-    font-size: 50px;
-    font-family: monospace;
-    margin: 66px 0 0  74px;
-    float: left;
-    transform: translate(-60px , -60px);
-}
-
-
-/*.menu{
-    width: 100%;
-    float: left;
-    height: 70px;
-    margin: 30px auto 30px;
-
-}*/
-/* ul{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
- ul li{
-margin-top: 0;
-margin-left: 70px;
-font-size: 18px;
-list-style: none;
-}
-
-ul li a{
-color: var(--secondary-color);
-
-font-family: Arial, Helvetica, sans-serif;
-transition: 0.4s ease-in-out;
-font-weight: 600;
-}
-.menu ul li a:hover{
-    color: #ff7200;
-}*/
 .h1{
     color: var(--secondary-color);
     text-align: center;
@@ -169,28 +95,7 @@ font-weight: 600;
     padding: 20px;
     
 }
-.h1::before{
-    content: '';
-    position: absolute;
-    width: 100px;
-    height: 3px;
-    background-color: #ff7200;
-    bottom: 570px;
-    left: 50%;
-    transform: translatex(-50%);
-    animation: animate 4s linear infinite;
-}
-@keyframes animate{
-    0%{
-        width: 100px;
-    }
-    50%{
-        width: 200px;
-    }
-    100%{
-        width: 100px;
-    }
-}
+
 
 .container{
     width: 100%;
