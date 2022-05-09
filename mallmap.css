@@ -31,65 +31,57 @@
     body{
         background-color: var(--primary-color);
     }
-/*.logo{
-    color:var(--secondary-color);
-    font-size: 50px;
-    font-family: monospace;
-    margin: 66px 0 0  74px;
-    float: left;
-    transform: translate(-60px , -60px);
-}*/
-.main{
-	width: 100%;
-	background-position: center;
-	background-size: cover;
-	height: 200px;
- opacity: 100%;
-}
-.logo{
-	float: left;
-	color: white;
-	font-size: 100px;
-	font-family:monospace;
-	display: flex;  
-	position: absolute;
-    margin-bottom: 30px;
-    top: 150px;
-	left: 50%;
-	transform: translate(-50%,-50%);
-}
-.menu{
-	float: left;
-	height: 70px;
-}
+  .main{
+        display: flex;
+        width: 100%;
+        background-color: grey;
+        background-position: center;
+        background-size: cover;
+        height: 200px;
+    }
+    .logo{
+        color: white;
+        font-size: 100px;
+        font-family:monospace;
+        display: flex;  
+        position: absolute;
+        top: 50px;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    .menu{
+        float: left;
+        height: 70px;
+    }
+    
+    ul{
+        float: left;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    ul li{
+        padding-left: 50px;
+        display: flex;
+        list-style: none;
+        margin-left: 50px;
+        margin-top: 27px;
+        font-size: 14px;
+    }
+    
+    ul li a{
+        text-decoration: none;
+        color: #fff;
+        font-family: Arial;
+        font-weight: bold;
+        transition: 0.4s ease-in-out;
+    }
+    
+    ul li a:hover{
+        color: #ff7200;
+    }
 
-ul{
-	float: left;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
-ul li{
-	padding-left: 80px;
-	display: flex;
-	list-style: none;
-    margin-left: 50px;
-	margin-top: -90px;
-	font-size: 19px;
-}
-
-ul li a{
-	text-decoration: none;
-	color: white;
-	font-family: Arial;
-	font-weight: bold;
-	transition: 0.4s ease-in-out;
-}
-
-ul li a:hover{
-	color: #ff7200;
-}
 
 .h1{
     color: var(--secondary-color);
