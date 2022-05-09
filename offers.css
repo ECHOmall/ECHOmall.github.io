@@ -1,0 +1,186 @@
+
+*{
+    margin: 0;
+    text-decoration: none;
+}
+.name{
+    color:#ff7200;
+    font-size: 40px;
+    text-align: center;
+}
+video{
+    max-width: 100%;
+    height: auto;
+}
+
+.align{
+    text-align: center;
+    margin-top: 80px;
+}
+.container {
+    position: relative;
+  }
+  
+  .center {
+    position: absolute;
+    top: 20%;
+    width: 100%;
+    text-align: center;
+    font-size: 25px ;
+    text-align: justify;
+    color: black;
+    font-family:Arial, Helvetica, sans-serif;
+  }
+  
+  .container img { 
+    width:  100% ;
+    height: 40% ;
+    opacity: 0.5;
+  }
+  #offer{
+      font-size:50px ;
+  }
+.sales{
+    width: 30%;
+    height: 30%;
+    opacity: none;
+
+}
+
+.document{
+    text-align:left;
+    font-size: 30px;
+    margin-left: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:var(--secondary-color);
+    
+
+
+}
+/*start navbar*/
+.head{
+
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    height: 15vh;
+    background-color:gray ;
+    border-bottom: 0.1rem solid rgb(0, 0, 0,0.1);
+    box-shadow: 0.5rem 0.1rem rgba(30, 29, 29, 0.045);
+    margin: 0;
+
+}
+.logo{
+    color:black;
+    font-size: 45px ;
+    font-family:Arial, Helvetica, sans-serif;
+   display: flex;
+   position: absolute;
+   top: 40px;
+   left: 45%;
+}
+
+
+.menu{
+    width: 10%;
+    float: left;
+    height: 125px;
+    margin: 30px auto 30px;
+
+}
+ ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ ul li{
+/*margin-top: 0;*/
+margin-left: 20px;
+font-size: 18px ;
+list-style: none;
+
+}
+
+ ul li a{
+color: #000000;
+font-family: Arial, Helvetica, sans-serif;
+transition: 0.4s ease-in-out;
+font-weight: 600;
+}
+ ul li a:hover{
+    color: white;
+}
+/*End navbar*/
+
+
+/*start footer*/
+.end {
+    font-family: Arial;
+    text-align: center;
+    font-size: 20px;
+    color: black;
+    background: gray;
+    height:auto;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    
+    
+}
+.ULfooter{
+    color: black;
+    background: gray;
+    height:auto;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+    
+}
+.end a{
+    text-decoration: none;
+    color: black;
+    font-family: Arial;
+    font-weight: bold;
+    
+
+}
+.end a:hover{
+    color: white;
+}
+ .ULfooter a{
+    text-decoration: none;
+    color: black;
+    font-family: Arial;
+    font-weight: bold;
+   
+}
+ .ULfooter a:hover{
+    color: white;
+}
+
+
+/*end footer*/
+
+
+
+/*start dark mood*/
+#icon{
+    width: 30px;
+   cursor: pointer;
+   margin: 20px;
+}
+:root{
+     --primary-color:white;
+       --secondary-color:#212121;
+    
+}
+.dark-theme{
+       --primary-color:#212121;
+       --secondary-color:white;
+ }
+body{
+       background-color:var(--primary-color);
+}
+/* end dark mood*/

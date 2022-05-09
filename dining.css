@@ -1,0 +1,166 @@
+* {
+    padding: 0;
+margin: 0; 
+}
+.name{
+    color:#ff7200;
+    font-size: 40px;
+    text-align: center;
+}
+.center a:link {
+    color :blue;
+    transition: 0.4s ease-in-out;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 25px;
+   
+}
+.center a:visited{
+    color:purple;
+}
+div.center{
+    text-align: center;
+    font-size: 25px;
+
+}
+div .items{
+    text-align: center;
+    font-size: 25px;
+    padding: 2px;
+    width: 400px;
+    height:300px;
+    margin-bottom: 10px;
+    margin-left: 450px;
+    border: 2px solid black;
+    
+    
+}
+.center a:hover {
+    color: red;
+}
+/* start navbar*/
+.head{
+
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    height: 15vh;
+    background-color:gray;
+    border-bottom: 0.1rem solid rgb(0, 0, 0,0.1);
+    box-shadow: 0.5rem 0.1rem rgba(30, 29, 29, 0.045);
+    
+
+}
+.logo{
+    color:black;
+    font-size: 45px ;
+    font-family:Arial, Helvetica, sans-serif;
+   display: flex;
+   position: absolute;
+   top: 40px;
+   left: 45%;
+   
+}
+
+
+.menu{
+    width: 10%;
+    float: left;
+    height: 120px;
+    margin: 30px auto 30px;
+
+}
+ ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ ul li{
+margin-top: 0;
+margin-left: 20px;
+font-size: 18px ;
+list-style: none;
+}
+*{
+    text-decoration: none;
+}
+ ul li a{
+color: #000000;
+font-family: Arial, Helvetica, sans-serif;
+transition: 0.4s ease-in-out;
+font-weight: 600;
+}
+ ul li a:hover{
+    color: white;
+}
+/* End navbar*/
+
+
+/*start dark mood*/
+#icon{
+    width: 30px;
+   cursor: pointer;
+   margin: 20px;
+}
+:root{
+     --primary-color:white;
+       --secondary-color:#212121;
+    
+}
+.dark-theme{
+       --primary-color:#212121;
+       --secondary-color:white;
+ }
+body{
+       background-color: var(--primary-color);
+}
+/*end dark mood*/
+/* start footer*/
+.end {
+    font-family: Arial;
+    text-align: center;
+    font-size: 20px;
+    color: black;
+    background: gray;
+    height:auto;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    
+    margin-top: 400px;
+}
+.end a{
+    text-decoration: none;
+    color: black;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+
+}
+.end a:hover{
+    color: white;
+}
+ .ULfooter a{
+    text-decoration: none;
+    color: black;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+    
+}
+ .ULfooter a:hover{
+    color: white;
+}
+.ULfooter{
+    color: black;
+    background: gray;
+    height:auto;
+    width: 100%;
+    margin: 0;
+    margin-top: 0;
+    padding: 0;
+    box-sizing: border-box;
+    float: left;
+}
+
+/* End footer*/
