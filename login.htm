@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>ECHO MALL</title>
+   <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="menu">
+        <div class="navbar">
+            <div class="icon">
+        <h2 class="logo">Echo</h2>
+        <ul>
+            <li><a href="index.htm">HOME</a></li>
+            <li><a href="dining.html">dining</a></li>
+            <li><a href="Cinema.html">cinema</a></li>
+            <li><a href="Shops.html">shops</a></li>
+            <li><a href="entertainment">entertainment</a></li>
+            <li><a href="order.html">orders</a></li>
+            <li><a href="offers.html">offers</a></li>
+            <li><a href="Spa.htm">SPA</a></li>
+            <li><a href="event.html">events</a></li>
+        </ul>
+        <img src="moon.jpeg" id="icon">
+        <div>
+    <div class="center">
+    <h1>log in</h1>
+   <form class="main">
+       <div class="txt-field">
+       <label>name</label>
+       <input type="text" required>
+       </div>
+       <div class="txt-field">
+       <label>password</label>
+       <input type="password" required>
+    </div>
+       <input type="submit" value="log in">
+   </form> 
+   </div>
+   <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> 
+    <div class="end">
+      Thanks for checking out website, can't wait to see you<br>
+      for more info visit us at : <a href="EchoMall@gmail.com"> Echomall@gmail.com</a>
+      </div>
+          <ul class="ULfooter">
+            <li class="LIfooter"><a href="support.htm">support</a></li>
+            <li class="LIfooter"><a href="Q&A.htm">Q&A</a></li>
+            <li class="LIfooter"><a href="about.html">about us</a></li>
+            <li class="LIfooter"><a href="mallmap.htm">mall map</a></li>
+          </ul>
+<script>
+    var icon = document.getElementById("icon");
+    icon.onclick = function(){
+        document.body.classList.toggle("dark-theme");
+        if(document.body.classList.contains("dark-theme")){
+            icon.src="sun.jpeg";
+        }
+        else{
+            icon.src="moon.jpeg";
+        }
+    }
+</script>
+</body>
+</html>

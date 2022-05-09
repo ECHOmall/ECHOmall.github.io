@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.main{
+    display: flex;
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(57af5235da126e39aa38f6aa6acf0a98.jpg);
+    background-position: center;
+    background-size: contain;
+    height: 100vh;
+}
+.logo{
+    color: #ffffff;
+    font-size: 150px;
+    font-family:monospace;
+}
+.logo{
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    display: flex;
+    list-style: none;
+    margin-left: 100px;
+    margin-top: 30px;
+    font-size: 15px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: #ff7200;
+}
+button {
+width: 200px;
+padding:15px;
+text-align: center;
+margin:450px 650px;
+border-radius: 25px;
+font-weight: bold;
+border: 2px solid #ffffff;
+background:transparent;
+color: #fff;
+cursor:pointer;
+font-size: x-large;
+}
+button:hover{
+    background:bisque;
+}
+button a{
+   text-decoration: none;
+   color: #fff;
+   font-weight: bold;
+} 
+.end{
+	font-family: Arial;
+	text-align: center;
+	font-size: 20px;
+	color: white;
+	background: grey;
+	height:auto;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+.end a{
+	text-decoration: none;
+	color: #fff;
+	font-family: Arial;
+	font-weight: bold;
+}
+.ULfooter{
+	color: white;
+	background: grey;
+	height:auto;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.ULfooter{
+	float: left;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.ULfooter li{
+	display: flex;
+	list-style: none;
+	margin-left: 62px;
+	margin-top: 27px;
+	font-size: 14px;
+}
+
+.ULfooter li a{
+	text-decoration: none;
+	color: #fff;
+	font-family: Arial;
+	font-weight: bold;
+	transition: 0.4s ease-in-out;
+}
+
+ .ULfooter li a:hover{
+	color: #ff7200;
+}
