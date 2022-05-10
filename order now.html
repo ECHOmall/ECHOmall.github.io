@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="order now.css">
+
+
+</head>
+
+<body>
+    <section class="section-head">
+        <div class="head">
+            <h1 title="Echo mall" class="logo">Echo</h1>
+            <div class="menu">
+                <ul>
+                    <li><a href="home.htm ">home</a></li>
+                    <li><a href="dining.html ">dining</a></li>
+                    <li><a href="cinema.html">cinema</a></li>
+                    <li><a href="shops.html">shops</a></li>
+                    <li><a href="enterainment.html ">entertainment</a></li>
+                    <li><a href="order.html">orders</a></li>
+                    <li><a href=" offers.html ">offers</a></li>
+                    <li><a href="spa.htm">spa</a></li>
+                    <li><a href="event.html">events</a></li>
+
+                </ul>
+            </div>
+        </div>
+
+        <img src="47.jpg" id="icon">
+    </section>
+
+    <div class="x">
+        <p>We Are Happy For Your Choice</p>
+    </div>
+    <div class="w">
+        <form id="frm1" action="/action_page.php">
+            what do you want:<input type="text"><br> first name :<input type="text">
+            <br> last name :<input type="text"><br> phone nummber:<input type="text"><br> address :
+            <input type="text"><br><br>
+    </div>
+    <div class="c">
+        <a href="submit.html">submit</a>
+
+    </div>
+    <div class="end">
+        Thanks for checking out website, can't wait to see you<br> for more info visit us at : <a href="EchoMall@gmail.com"> Echomall@gmail.com</a>
+    </div>
+    <ul class="ULfooter">
+        <li class="LIfooter"><a href="support.html">support</a></li>
+        <li class="LIfooter"><a href="Q&A.html">Q&A</a></li>
+        <li class="LIfooter"><a href="aboutus.html">about us</a></li>
+        <li class="LIfooter"><a href="mallmap.html">mall map</a></li>
+    </ul>
+    </div>
+    </div>
+    <script>
+        var icon = document.getElementById("icon");
+        icon.onclick = function() {
+            document.body.classList.toggle("dark-theme");
+            if (document.body.classList.contains("dark-theme")) {
+                icon.src = "48.jpg";
+            } else {
+                icon.src = "47.jpg";
+            }
+        }
+    </script>
+
+</body>
+
+</html>
