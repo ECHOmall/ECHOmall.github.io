@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    margin: center;
+}
+
+.head {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    width: 110%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url('57af5235da126e39aa38f6aa6acf0a98.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+}
+
+.logo {
+    color: white;
+    font-size: 100px;
+    font-family: monospace;
+    display: flex;
+    position: absolute;
+    top: 150px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.menu {
+    float: left;
+    height: 130px;
+    padding-bottom: 80px;
+    margin-left: -50px;
+}
+
+ul {
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 100px;
+}
+
+ul li {
+    padding-right: 100px;
+    display: flex;
+    list-style: none;
+    font-size: 14px;
+    margin: 0px 40px 30px 30px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover {
+    color: #ff7200;
+}
+
+.x {
+    position: absolute;
+    top: 10%;
+    background: rgb(248, 202, 202);
+    color: rgb(19, 15, 15);
+    width: 25%;
+    padding: 20px;
+    border: 10px solid rgb(245, 99, 99);
+    font-size: 30px;
+    margin: 150px 0px 0px 800px;
+}
+
+.w {
+    position: absolute;
+    top: 10%;
+    width: 25%;
+    font-size: 40px;
+    margin: 250px 0px 0px 70px;
+    color: var(--secondary-color)
+}
+
+.c {
+    position: relative;
+    margin: 700px 0px 0px 900px;
+    font-size: 50px;
+}
+
+a:hover {
+    color: red;
+}
+
+.end {
+    font-family: Arial;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    background: grey;
+    height: auto;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.end a {
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+.ULfooter {
+    color: white;
+    background: grey;
+    height: auto;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li {
+    display: flex;
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover {
+    color: #ff7200;
+}
+
+#icon {
+    width: 30px;
+    cursor: pointer;
+    margin: 20px;
+}
+
+ :root {
+    --primary-color: white;
+    --secondary-color: #212121;
+}
+
+.dark-theme {
+    --primary-color: #212121;
+    --secondary-color: white;
+}
+
+body {
+    background-color: var(--primary-color);
+}
