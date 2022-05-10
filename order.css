@@ -1,0 +1,467 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    margin: center;
+}
+
+.head {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    width: 110%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url('57af5235da126e39aa38f6aa6acf0a98.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 170px;
+}
+
+.logo {
+    color: white;
+    font-size: 100px;
+    font-family: monospace;
+    display: flex;
+    position: absolute;
+    top: 130px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.menu {
+    float: left;
+    height: 170px;
+    padding-bottom: 50px;
+    margin-left: -50px;
+}
+
+ul {
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 140px;
+}
+
+ul li {
+    padding-right: 100px;
+    display: flex;
+    list-style: none;
+    font-size: 14px;
+    margin: 0px 40px 30px 30px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover {
+    color: #ff7200;
+}
+
+.x {
+    position: absolute;
+    top: 15%;
+    background: rgb(233, 175, 136);
+    color: rgb(20, 17, 17);
+    width: 14%;
+    padding: 20px;
+    border: 10px solid rgb(141, 90, 60);
+    font-size: 30px;
+    margin: 130px 0px 0px 800px;
+}
+
+.cs {
+    position: absolute;
+    top: 15%;
+    background: rgb(240, 172, 160);
+    color: rgb(219, 91, 91);
+    width: 14%;
+    padding: 20px;
+    border: 10px solid rgb(207, 207, 207);
+    font-size: 30px;
+    margin: 80px 0px 0px 0px;
+}
+
+.r {
+    position: absolute;
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    height: 100%;
+    margin: 100px 0px 100px 600px;
+}
+
+.b {
+    position: absolute;
+    top: 130%;
+    width: 100%;
+    height: 100%;
+    margin: 50px 0px 100px 600px;
+}
+
+.z {
+    position: absolute;
+    top: 7%;
+    width: 100%;
+    height: 100%;
+    margin: 1800px 0px 100px 600px;
+}
+
+.kk {
+    position: absolute;
+    top: 7%;
+    width: 100%;
+    height: 100%;
+    margin: 3600px 0px 100px 600px;
+}
+
+.k {
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+    margin: 2500px 0px 100px 600px;
+}
+
+.j {
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+    margin: 3100px 0px 100px 600px;
+}
+
+.f {
+    position: absolute;
+    top: 10%;
+    background: rgb(233, 175, 136);
+    color: rgb(19, 17, 17);
+    width: 16%;
+    padding: 20px;
+    border: 10px solid rgb(141, 90, 60);
+    font-size: 30px;
+    margin: 4300px 0px 0px 800px;
+}
+
+.y {
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    height: 100%;
+    margin: 4200px 0px 100px 600px;
+}
+
+.w {
+    position: absolute;
+    top: 10%;
+    background: grey;
+    color: white;
+    width: 7%;
+    height: 15%;
+    border: 10px solid rgb(7, 5, 5);
+    font-size: 30px;
+    margin: 5100px 0px 0px 600px;
+}
+
+.q {
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    height: 100%;
+    margin: 4800px 0px 100px 600px;
+}
+
+.m {
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    height: 100%;
+    margin: 5400px 0px 100px 600px;
+}
+
+.e {
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    height: 100%;
+    margin: 6000px 0px 100px 600px;
+}
+
+.aa {
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    height: 100%;
+    margin: 7700px 0px 100px 600px;
+}
+
+.bb {
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    height: 100%;
+    margin: 6600px 0px 100px 600px;
+}
+
+.lo {
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    height: 100%;
+    margin: 7200px 0px 100px 600px;
+}
+
+.ls {
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    height: 100%;
+    margin: 7850px 0px 100px 600px;
+}
+
+.jj {
+    position: absolute;
+    top: 10%;
+    background: rgb(238, 115, 115);
+    color: rgb(10, 9, 9);
+    width: 9%;
+    height: 15%;
+    border: 10px solid rgb(245, 221, 220);
+    font-size: 30px;
+    margin: 5420px 0px 0px 600px;
+}
+
+.xxx {
+    position: absolute;
+    top: 10%;
+    background: rgb(238, 115, 115);
+    color: rgb(10, 9, 9);
+    width: 9%;
+    height: 15%;
+    border: 10px solid rgb(245, 221, 220);
+    font-size: 30px;
+    margin: 6620px 0px 0px 600px;
+}
+
+.ddd {
+    position: absolute;
+    top: 10%;
+    background: rgb(238, 115, 115);
+    color: rgb(10, 9, 9);
+    width: 9%;
+    height: 15%;
+    border: 10px solid rgb(245, 221, 220);
+    font-size: 30px;
+    margin: 7220px 0px 0px 600px;
+}
+
+.rs {
+    position: absolute;
+    top: 10%;
+    background: rgb(238, 115, 115);
+    color: rgb(10, 9, 9);
+    width: 9%;
+    height: 15%;
+    border: 10px solid rgb(245, 221, 220);
+    font-size: 30px;
+    margin: 7820px 0px 0px 600px;
+}
+
+.lr {
+    position: absolute;
+    top: 10%;
+    background: rgb(238, 115, 115);
+    color: rgb(10, 9, 9);
+    width: 9%;
+    height: 15%;
+    border: 10px solid rgb(245, 221, 220);
+    font-size: 30px;
+    margin: 8470px 0px 0px 600px;
+}
+
+.zz {
+    position: absolute;
+    top: 10%;
+    background: rgb(238, 115, 115);
+    color: rgb(12, 10, 10);
+    width: 9%;
+    height: 15%;
+    border: 10px solid rgb(245, 221, 220);
+    font-size: 30px;
+    margin: 4820px 0px 0px 600px;
+}
+
+.xx {
+    position: absolute;
+    top: 10%;
+    background: rgb(238, 115, 115);
+    color: rgb(7, 6, 6);
+    width: 9%;
+    height: 15%;
+    border: 10px solid rgb(245, 221, 220);
+    font-size: 30px;
+    margin: 6020px 0px 0px 600px;
+}
+
+.cc {
+    position: absolute;
+    top: 10%;
+    background: rgb(233, 175, 136);
+    color: rgb(3, 3, 3);
+    width: 12%;
+    padding: 20px;
+    border: 10px solid rgb(141, 90, 60);
+    font-size: 30px;
+    margin: 9000px 0px 0px 800px;
+}
+
+.yy {
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    height: 100%;
+    margin: 9000px 0px 100px 600px;
+}
+
+.uu {
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    height: 100%;
+    margin: 9700px 0px 100px 600px;
+}
+
+.oo {
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    height: 100%;
+    margin: 10400px 0px 100px 600px;
+}
+
+.mm {
+    position: absolute;
+    top: 10%;
+    background: rgb(238, 115, 115);
+    color: rgb(2, 1, 1);
+    width: 8%;
+    padding: 20px;
+    border: 10px solid rgb(245, 221, 220);
+    font-size: 30px;
+    margin: 9600px 0px 0px 600px;
+}
+
+.nn {
+    position: absolute;
+    top: 10%;
+    background: rgb(238, 115, 115);
+    color: rgb(7, 5, 5);
+    width: 8%;
+    padding: 20px;
+    border: 10px solid rgb(245, 221, 220);
+    font-size: 30px;
+    margin: 10340px 0px 0px 600px;
+}
+
+.qq {
+    position: absolute;
+    top: 10%;
+    background: rgb(238, 115, 115);
+    color: rgb(8, 8, 8);
+    width: 8%;
+    padding: 20px;
+    border: 10px solid rgb(245, 221, 220);
+    font-size: 30px;
+    margin: 11000px 0px 0px 600px;
+}
+
+.aaa {
+    position: relative;
+    margin: 11300px 0px 200px 900px;
+    font-size: 50px;
+}
+
+a:hover {
+    color: red;
+}
+
+.end {
+    font-family: Arial;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    background: grey;
+    height: auto;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.end a {
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+.ULfooter {
+    color: white;
+    background: grey;
+    height: auto;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li {
+    display: flex;
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover {
+    color: #ff7200;
+}
+
+#icon {
+    width: 30px;
+    cursor: pointer;
+    margin: 20px;
+}
+
+ :root {
+    --primary-color: white;
+    --secondary-color: #212121;
+}
+
+.dark-theme {
+    --primary-color: #212121;
+    --secondary-color: white;
+}
+
+body {
+    background-color: var(--primary-color);
+}
